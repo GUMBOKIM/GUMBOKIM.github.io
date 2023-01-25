@@ -1,0 +1,130 @@
+.page-container {
+    width: 750px;
+    margin: 0 auto;
+    padding: 180px 45px 145px 45px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: "UniqloProRegular", "Nanum Gothic";
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 90pt;
+    word-spacing: -0.2em;
+    line-height: 90%;
+}
+
+h2 {
+    font-size: 30pt;
+    word-spacing: -0.1em;
+    font-weight: 900;
+    line-height: 155%;
+    margin-top: -30px
+}
+
+h5 {font-family: "Nanum Gothic";
+    font-size: 12pt;
+    word-spacing: -0.2em;
+    font-weight: 500;
+    line-height: -20%;
+}
+
+p {
+    font-family: "Nanum Gothic";
+    font-size: 12pt;
+    line-height: 150%;
+    word-spacing: 0em;
+}
+
+.grey {
+    color: #060606;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.normal {
+    font-weight: lighter;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+
+strong {
+    font-weight: bolder;
+}
+
+.mr {
+    margin-right: auto;
+}
+
+.ml {
+    margin-left: auto;
+}
+
+.mt {
+    margin-top: auto;
+}
+
+.section1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.section2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 285px) auto;
+    gap: 15px;
+}
+
+.section3 {
+    width: 100%;
+    height: 120px;
+    display: grid;
+    grid-template-columns: auto 200px
+}
+
+.section3 > div {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column-reverse;
+}
+
+.section4 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 250px auto;
+    gap: 15px
+}
+
+.section5 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 380px auto;
+    gap: 15px
+}
+
+.section6 {
+    width: 100%;
+    display: grid;
+    grid-template-columns:  auto 270px;
+    gap: 15px
+}
